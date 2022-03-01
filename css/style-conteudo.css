@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu';
+    color: black;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 107px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(95, 172, 95);
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    margin-left: 2%;
+}
+
+.menu_navigation{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.menu_navigation_items{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: 300px;
+}
+
+footer{
+    width: 100%;
+    height: 157px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(95, 172, 95);
+}
+
+.logo_footer{
+    width: 10%;
+    height: 80%;
+    display: flex;
+    margin: auto 0;
+    margin-left: 2%;
+}
+
+.menu_navigation_footer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-right: 0%;
+    justify-content: center;
+    gap: 10%;
+}
+
+.menu_navigation_items_footer{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;   
+}
+
+.option_footer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    justify-content: center;
+    gap: 10%;
+}
+
+.option_footer_link{
+    text-decoration: none;
+    color: white;
+    border: 1px white solid;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+
+/* aqui termina o header e o footer */
+
+.article{
+    display: flex;
+    flex-direction: column;
+    margin: auto 7%;
+    height: auto;
+}
+
+.article_h1{
+    color: rgb(226, 43, 73);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.article_data{
+    text-align: center;
+    color: rgb(211, 200, 200);
+    margin-top: -0.2%;
+}
+
+.article_img{
+    height: 400px;
+    margin: 4% 0px;
+}
+
+.article_p{
+    margin-bottom: 1%;
+    text-align: justify;
+}
+
+.article_h3{
+    margin-bottom: 1%;
+    color: rgb(95, 172, 95);
+}
+
+.article_p_last{
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.second_banner{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: rgb(206, 197, 197);;
+}
+
+.second_banner_h1{
+    background-color: rgb(206, 197, 197);
+    width: 100%;
+    color: rgb(226, 43, 73);
+    text-align: center;
+    padding-top: 4%;
+}
+
+.second_banner_row{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 4% 0px;
+    gap: 2%;
+    align-items: center; 
+}
+
+.second_banner_row_img{
+    width: 50%;
+    height: 80%;
+}
+
+.second_banner_row_h4{
+    width: 100%;
+    color: rgb(226, 43, 73);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.second_banner_row_p{
+    margin: 10px 0px;
+    width: 50%;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.second_banner_row_a{
+    text-decoration: none;
+    color: white; 
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    padding: 2%;
+    background-color: rgb(226, 43, 73);
+    font-size: 1rem;
+}
+
+@media screen and (max-width:700px) {
+    .menu_navigation_footer {
+        display: none;
+    }
+
+    .menu_navigation{
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+
+    .article_h3{
+        margin: 5% 0px;
+    }
+
+    .second_banner{
+        overflow-x:scroll;
+    }
+
+    .second_banner_row{
+        min-width: 400px;
+    }
+
+    .second_banner_row_img{
+        width: 50%;
+    }
+
+    header{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .logo{
+        width: 50%;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    .option_footer{
+        display: flex;
+    }
+
+    .logo_footer{
+        width: 50%;
+    }
+
+    .logo_footer img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width:1100px){
+    .menu_navigation_footer {
+        margin-left: auto;
+    }
+    
+    .menu_navigation{
+        gap: 5%;
+        margin-right: 5%;
+    }
+
+    .second_banner{
+        overflow-x:scroll;
+        overflow-y: hidden;
+    }
+
+    .second_banner_row{
+        min-width: 400px;
+    }
+
+    .second_banner_row_img{
+        width: 50%;
+    }
+}
