@@ -17,7 +17,7 @@ body{
 
 header{
     width: 100%;
-    height: 107px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     background-color: rgb(95, 172, 95);
@@ -32,7 +32,7 @@ header{
 .menu_navigation{
     width: 20%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-right: 2%;
 }
@@ -49,7 +49,7 @@ main{
 
 footer{
     width: 100%;
-    height: 157px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     background-color: rgb(95, 172, 95);
@@ -68,7 +68,6 @@ footer{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    margin-right: 0%;
     justify-content: center;
     gap: 10%;
 }
@@ -84,7 +83,7 @@ footer{
     flex-direction: column;
     margin-right: 2%;
     justify-content: center;
-    gap: 10%;
+    width: 20%;
 }
 
 .option_footer_link{
@@ -93,6 +92,8 @@ footer{
     border: 1px white solid;
     padding: 10px 5px;
     border-radius: 20px;
+    text-align: center;
+    margin: 7% 0px;
 }
 
 /* aqui acaba o header e o footer */
@@ -153,17 +154,17 @@ footer{
     margin: 0% 2%;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
     .menu_navigation_footer {
         display: none;
     }
 
     .logo, .logo_footer{
-        width: 70%;
+        width: 50%;
     }
 
     .logo img, .logo_footer img{
-        width: 80%;
+        width: 100%;
     }
 
     .title{
@@ -173,7 +174,11 @@ footer{
 
     .menu_navigation{
         flex-direction: column;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    .menu_navigation_items{
+        margin: 7% 0px;
     }
 
     .banner_img{
@@ -203,6 +208,7 @@ footer{
     .banner_text_p{
         text-align: justify;
         width: 100%;
+        margin-top: 2%;
     }
 
     .banner_text_a{
@@ -212,6 +218,8 @@ footer{
 
     .option_footer_link{
         font-size: 0.8rem;
+        margin: 7% 0px;
+        padding: 8px;        
     }
 }
 
@@ -220,18 +228,5 @@ footer{
         margin-left: 20%;
     }
 
-    .menu_navigation{
-        gap: 10%;
-        margin-right: 5%;
-    }
 }
 
-@media screen and (max-width:900px) {
-    .banner_text{
-        gap: 5%;
-    }
-    .banner_text_a{
-        width: 50%;
-    }
-
-}

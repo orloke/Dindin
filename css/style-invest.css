@@ -16,7 +16,7 @@ body{
 
 header{
     width: 100%;
-    height: 107px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     background-color: rgb(95, 172, 95);
@@ -31,7 +31,7 @@ header{
 .menu_navigation{
     width: 20%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-right: 2%;
 }
@@ -48,7 +48,7 @@ main{
 
 footer{
     width: 100%;
-    height: 157px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     background-color: rgb(95, 172, 95);
@@ -176,7 +176,7 @@ footer{
     justify-content: center;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .menu_navigation_footer {
         display: none;
     }
@@ -217,6 +217,10 @@ footer{
         font-size: 0.8rem;
     }
 
+    .menu_navigation_items{
+        margin: 7% 0px;
+    }
+
     .banner, #banner{
         flex-direction: column;
         align-items: center;
@@ -242,6 +246,8 @@ footer{
 
     .option_footer_link{
         font-size: 0.8rem;
+        margin: 7% 0px;
+        padding: 8px;
     }
 }
 

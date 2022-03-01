@@ -17,7 +17,7 @@ body{
 
 header{
     width: 100%;
-    height: 107px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     background-color: rgb(95, 172, 95);
@@ -30,7 +30,6 @@ header{
 }
 
 .menu_navigation{
-    width: 20%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -49,7 +48,7 @@ main{
 
 footer{
     width: 100%;
-    height: 157px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     background-color: rgb(95, 172, 95);
@@ -283,6 +282,10 @@ iframe{
         flex-direction: column;
         font-size: 0.8rem;
     }
+
+    .menu_navigation_items{
+        margin: 7% 0px;
+    }
     
     .second_banner{
         overflow-x:scroll;
@@ -362,6 +365,8 @@ iframe{
 
     .option_footer_link{
         font-size: 0.8rem;
+        padding: 8px;
+        margin: 7% 0px;
     }
 }
 
