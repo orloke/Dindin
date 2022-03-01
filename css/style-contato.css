@@ -7,13 +7,13 @@
     color: black;
 }
 
-/* html{
+html{
     height: 100%;
 }
 
 body{
     height: 100%;
-} */
+}
 
 header{
     width: 100%;
@@ -166,7 +166,6 @@ main{
 
     .form{
         width: 100%;
-        column-gap: 5% !important;
     }
 
     .main_img{
