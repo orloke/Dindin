@@ -48,8 +48,8 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: rgb(95, 172, 95);
-    /* bottom: 0;
-    position: absolute; */
+    bottom: 0;
+    position: absolute;
 }
 
 .logo_footer{
