@@ -139,11 +139,11 @@ main{
         display: none;
     }
 
-    .logo{
+    .logo, .logo_footer{
         width: 50%;
     }
 
-    .logo img{
+    .logo img, .logo_footer img{
         width: 100%;
     }
 
@@ -167,20 +167,12 @@ main{
 
     .form{
         width: 100%;
+        gap: 5%;
     }
 
     .main_img{
         display: none;
     }
-
-    .logo_footer{
-        width: 50%;
-    }
-
-    .logo_footer img{
-        width: 100%;
-    }
-
     .option_footer_link{
         font-size: 0.8rem;
         margin: 7% 0px;
