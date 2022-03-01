@@ -286,10 +286,12 @@ iframe{
     
     .second_banner{
         overflow-x:scroll;
+        overflow-y: hidden;
     }
 
     .second_banner_row{
         min-width: 450px;
+        margin-bottom: 2%;
     }
 
     .second_banner_row_img{
