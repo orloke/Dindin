@@ -8,7 +8,6 @@
 
 html{
     height: 100%;
-
 }
 
 body{
@@ -30,8 +29,9 @@ header{
 }
 
 .menu_navigation{
+    width: 20%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-right: 2%;
 }
@@ -370,12 +370,7 @@ iframe{
     }
 }
 
-@media screen and (max-height:1300px) {
-    .menu_navigation{
-        gap: 5%;
-        margin-right: 5%;
-    }
-}
+
 
 @media screen and (max-width:1000px) {
     .fourth_banner_a{
