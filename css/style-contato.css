@@ -7,13 +7,13 @@
     color: black;
 }
 
-html{
+/* html{
     height: 100%;
 }
 
 body{
     height: 100%;
-}
+} */
 
 header{
     width: 100%;
@@ -48,8 +48,8 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: rgb(95, 172, 95);
-    bottom: 0;
-    position: absolute;
+    /* bottom: 0;
+    position: absolute; */
 }
 
 .logo_footer{
@@ -130,8 +130,7 @@ main{
 
 .main_img{
     margin-left: 10%;
-    margin-top: -5%;
- 
+    margin-top: -8%; 
 }
 
 @media screen and (max-width:700px) {
