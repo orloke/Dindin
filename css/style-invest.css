@@ -180,6 +180,15 @@ footer{
     .menu_navigation_footer {
         display: none;
     }
+
+    .logo, .logo_footer{
+        width: 70%;
+    }
+
+    .logo img, .logo_footer img{
+        width: 80%;
+    }
+
     .title{
         text-align: center;
     }
@@ -193,8 +202,14 @@ footer{
         align-items: center;
     }
 
-    .first_banner_left_h1, .first_banner_left_p{
+    .first_banner_left_h1{
         text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .first_banner_left_p{
+        font-size: 0.95rem;
+        text-align: justify;
     }
 
     .menu_navigation{
@@ -205,6 +220,7 @@ footer{
     .banner, #banner{
         flex-direction: column;
         align-items: center;
+        font-size: 0.8rem;
     }
 
     .banner_text{
@@ -220,8 +236,12 @@ footer{
         margin-bottom: 5%;
     }
 
+    .banner_text_p{
+        text-align: justify;
+    }
+
     .option_footer_link{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }
 

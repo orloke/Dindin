@@ -13,7 +13,6 @@ html{
 
 body{
     height: 100%;
-    min-width: 700px;
 }
 
 header{
@@ -158,28 +157,61 @@ footer{
     .menu_navigation_footer {
         display: none;
     }
+
+    .logo, .logo_footer{
+        width: 70%;
+    }
+
+    .logo img, .logo_footer img{
+        width: 80%;
+    }
+
     .title{
         text-align: center;
+        width: 80%;
     }
 
     .menu_navigation{
         flex-direction: column;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+    }
+
+    .banner_img{
+        width: 70%;        
     }
 
     .banner, #banner_border{
         flex-direction: column;
-        text-align: center;
+        align-items: center;
+        width: 80%;
     }
+
     .banner_text_a{
         margin: 2% auto;
     }
+
     .banner_text{
         margin-top: 2%;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .banner_text_h3{
+        text-align: center;
+    }
+
+    .banner_text_p{
+        text-align: justify;
+        width: 100%;
     }
 
     .banner_text_a{
         width: 30%;
+        font-size: 0.7rem;
+    }
+
+    .option_footer_link{
+        font-size: 0.8rem;
     }
 }
 
