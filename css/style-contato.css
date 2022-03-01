@@ -48,8 +48,8 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: rgb(95, 172, 95);
-    /* bottom: 0;
-    position: absolute; */
+    bottom: 0;
+    position: absolute;
 }
 
 .logo_footer{
@@ -166,7 +166,7 @@ main{
 
     .form{
         width: 100%;
-        gap: 5%;
+        column-gap: 5% !important;
     }
 
     .main_img{
@@ -185,8 +185,10 @@ main{
     }
 
     .menu_navigation{
-        gap: 10%;
-        margin-right: 5%;
+        flex-direction: column;
+        font-size: 0.8rem;
+        width: auto;
+        margin: 1% 2% 1% 0;
     }
 
     .main_img{
