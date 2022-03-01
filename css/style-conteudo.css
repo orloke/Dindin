@@ -209,11 +209,12 @@ footer{
 
     .second_banner{
         overflow-x:scroll;
+        overflow-y: hidden;
     }
 
     .second_banner_row{
         min-width: 400px;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
 
     .second_banner_row_img{
