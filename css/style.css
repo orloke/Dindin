@@ -6,11 +6,7 @@
     font-family: 'Ubuntu';
 }
 
-html{
-    height: 100%;
-}
-
-body{
+html, body{
     height: 100%;
 }
 
@@ -140,7 +136,6 @@ footer{
     flex-direction: column;
     margin: 4% 2%;
     align-items: flex-end;
-
 }
 
 /* segundo banner */
@@ -159,8 +154,7 @@ footer{
     width: 40%;
     margin: 4% 0%;
     gap: 2%;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .second_banner_row_img{
@@ -275,7 +269,7 @@ iframe{
 }
 
 @media screen and (max-width:700px) {
-    .menu_navigation_footer {
+    .menu_navigation_footer, .first_banner_right {
         display: none;
     }
 
@@ -340,10 +334,6 @@ iframe{
         margin-bottom: -5%;
     }
     
-    .first_banner_right{
-        display: none;
-    }
-
     .first_banner_left{
         width: 100%;
         align-items: center;
@@ -389,7 +379,6 @@ iframe{
     .first_banner_right_img{
         width: 100%;
     }
-
     
     .menu_navigation{
         flex-direction: column;
