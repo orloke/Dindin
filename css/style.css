@@ -234,13 +234,13 @@ footer{
 .fourth_banner_h2{
     margin: 4% 0% 2% 5%;
     color: rgb(95, 172, 95);
-    width: 100%;
+    width: 90%;
 }
 
 .fourth_banner_row{
     display:flex;
     justify-content: space-between;
-    margin: 1% 5%;
+    margin: 1% 0% 0% 5%;
 }
 
 .fourth_banner_cont{
