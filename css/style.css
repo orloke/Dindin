@@ -200,12 +200,12 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
 .third_banner_h2{
-    margin: 4% 0% 2% 5%;
+    margin: 2% 0% 2% 0%;
     color: rgb(95, 172, 95);
+    width: 100%;
 }
 
 .third_banner_dp{
@@ -215,14 +215,8 @@ footer{
     justify-content: space-between;
 }
 
-.third_banner_dp_unit_p{
-
-    width: 100%;
-}
-
 .third_banner_dp_column{
     width: 50%;
-
 }
 
 .third_banner_dp_unit{
@@ -231,7 +225,6 @@ footer{
     align-items: center;
     gap: 5%;
     margin-bottom: 2%;
-
 }
 
 /* quarto banner */
@@ -240,6 +233,12 @@ footer{
     display: flex;
     flex-direction: column;
     height: auto;
+}
+
+.fourth_banner_h2{
+    margin: 4% 0% 2% 5%;
+    color: rgb(95, 172, 95);
+    width: 100%;
 }
 
 .fourth_banner_row{
@@ -301,16 +300,25 @@ iframe{
         width: 30%;
     }
 
+    .third_banner{
+        align-items: center;
+    }
+
+    .third_banner_h2{
+        width: 100%;
+        text-align: center;
+    }
+
     .third_banner_dp{
         flex-direction: column;
-
     }
+
     .third_banner_dp_column{
         width: 100%;
     }
 
     .third_banner_dp_unit{
-        border: 1px solid rgb(226, 43, 73);
+        margin: 0 auto;
     }
 
     .fourth_banner_cont{
