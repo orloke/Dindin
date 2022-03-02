@@ -213,6 +213,7 @@ footer{
     flex-flow: row wrap;
     margin: 1% 5%;
     justify-content: space-between;
+    height: auto;
 }
 
 .third_banner_dp_column{
@@ -225,6 +226,7 @@ footer{
     align-items: center;
     gap: 5%;
     margin-bottom: 2%;
+    height: auto;
 }
 
 /* quarto banner */
@@ -318,7 +320,8 @@ iframe{
     }
 
     .third_banner_dp_unit{
-        margin: 0 auto;
+        margin: 3% auto;
+        border: 1px solid rgb(226, 43, 73);
     }
 
     .fourth_banner_cont{
